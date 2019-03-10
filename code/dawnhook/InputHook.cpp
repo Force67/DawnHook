@@ -51,9 +51,6 @@ static BOOL GetCursorPos_Stub(LPPOINT lpPoint)
 	if (g_MenuActive)
 	{
 		memcpy(lpPoint, &frozen, sizeof(tagPOINT));
-
-		std::printf("GetCursorPos !%p\n", _ReturnAddress());
-
 		return TRUE;
 	}
 	return GetCursorPos_O(lpPoint);
@@ -166,7 +163,6 @@ BOOL SetCursorPos_Stub(int X, int Y)
 {
 	if (g_MenuActive)
 	{
-	//	SetCursorPos_O(frozen.x, frozen.y);
 		return TRUE;
 	}
 	return SetCursorPos_O(X, Y);
