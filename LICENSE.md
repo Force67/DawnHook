@@ -1,5 +1,5 @@
 
-CryHook5 License (This applies to everything within the code/cryhook5 directory) :
+DawnHook License (This applies to everything within the code/dawnhook directory) :
 
 Copyright (c) 2018 Force67
 

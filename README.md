@@ -1,4 +1,4 @@
-# CryHook5
+# DawnHook
 
 Lua and asset hook for FarCry New Dawn.
 
